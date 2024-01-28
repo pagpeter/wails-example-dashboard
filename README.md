@@ -6,7 +6,14 @@ This template comes with Vite, React, TypeScript, TailwindCSS and shadcn/ui.
 
 Built with `Wails v2.5.1` and [shadcn's CLI](https://ui.shadcn.com/docs/cli)
 
+I customized the template to give it some content, and to make starting projects with it even easier. I also added the tailwind catpuccin plugin for a nice colorscheme.
+
+The "Dashboard" looks like this:
+
+![](./images/dash.png) (The border is not part of it)
+
 ### Using the Template
+
 ```console
 wails init -n project-name -t https://github.com/Mahcks/wails-vite-react-tailwind-shadcnui-ts
 ```
@@ -20,11 +27,13 @@ npm install
 ```
 
 ### Installing Components
+
 To install components, use shadcn's CLI tool to install
 
 More info here: https://ui.shadcn.com/docs/cli#add
 
 Example:
+
 ```console
 npx shadcn-ui@latest add [component]
 ```
