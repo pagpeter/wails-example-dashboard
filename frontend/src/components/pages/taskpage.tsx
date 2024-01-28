@@ -9,7 +9,7 @@ import {
 
 import { FaPersonRifle } from "react-icons/fa6";
 
-export default function TaskTable({ profiles }: { profiles: any[] }) {
+export default function TaskPage({ profiles }: { profiles: any[] }) {
   return (
     <div className="mx-5 pt-5">
       <p className="text-3xl font-bold ">

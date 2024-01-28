@@ -25,19 +25,19 @@ export default function Sidebar({
         </button>
         <button
           className={`${
-            route === "logs" ? "bg-text" : "bg-surface0"
-          }  rounded shadow-xl flex justify-center items-center h-10`}
-          onClick={() => setRoute("logs")}
-        >
-          <FaTerminal />
-        </button>
-        <button
-          className={`${
             route === "server" ? "bg-text" : "bg-surface0"
           } rounded shadow-xl flex justify-center items-center h-10`}
           onClick={() => setRoute("server")}
         >
           <FaServer />
+        </button>
+        <button
+          className={`${
+            route === "logs" ? "bg-text" : "bg-surface0"
+          }  rounded shadow-xl flex justify-center items-center h-10`}
+          onClick={() => setRoute("logs")}
+        >
+          <FaTerminal />
         </button>
         <button
           className={`${
