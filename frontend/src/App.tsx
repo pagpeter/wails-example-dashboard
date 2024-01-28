@@ -26,7 +26,7 @@ function Router({ route, args }: { route: string; args: any }) {
 function App() {
   const [route, setRoute] = useState("profiles");
 
-  const profiles = names.map((n) => {
+  let profiles = names.map((n) => {
     return {
       n: n.name,
       v: n.searches,
